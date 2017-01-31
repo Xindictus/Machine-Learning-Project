@@ -62,5 +62,7 @@ Final WordCloud with title included 50 times |
 
 Although there is not much of a difference between adding the title 20 and 50 times, there is a significant improvement compared to the first WordCloud we created. Teams' names have started to appear and less important words such as player are depicted with a much smaller font, like they should.
 
+# Clustering
 
+# Classification
  
