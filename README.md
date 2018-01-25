@@ -37,13 +37,13 @@ Before running the `.py`, you will also need to install certain Python libraries
 
 # WordCloud
 
-Running the `wordCloud.py` will create a WordCloud for each category based on the articles from the `train_set.csv`, saving them in folder named ***WordCloud Export***.
+Running the `wordCloud.py` will create a WordCloud for each category based on the articles from the `train_set.csv`, saving them in a folder named ***WordCloud Export***.
 - - -
 
 **Steps taken to increase the WordCloud's quality:**
-  1. In the examples images that will follow, we will notice that just taking into account the body of the article is not enough to get the kind of information that will depict the most important stories for each category. As such, I decided to include the title of the article along with the its body in the preprocessing step. 
-  1. Apart from the `stopwords` provided from the `word_cloud` library, I have included an excel of extra `stopwords`, consisting of the most usual english verbs. This will provide us with a better quality WordCloud, since nouns provide us with a better view of what's the most important topics in the articles.
-  3. The usual verbs are not included in the WordCloud now, but we can improve it even more, giving more weight to the title. So I try to add the title 20 times this time to the preprocessing
+  1. In the examples images that will follow, we will notice that just taking into account the body of the article is not enough to get the kind of information that will depict the most important stories for each category. As such, I decided to include the title of the article along with its body in the preprocessing step. 
+  1. Apart from the `stopwords` provided from the `word_cloud` library, I have included an excel of extra `stopwords`, consisting of the most usual english verbs. This will provide us with a better quality WordCloud, since nouns provide us with a better view of the most important topics in the articles.
+  3. The usual verbs are not included in the WordCloud now, but we can improve it even more, giving more weight to the title. So I try to add the title 20 times this time to the preprocessing.
   4. The final improvement has included the title up to 50 times.
   
 Let's see an example using the **Football** category of course. :) 
